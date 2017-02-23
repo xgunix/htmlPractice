@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <style>
+        .center {text-align: center}
+        [title]{color: red}
+        [title ~= hello]{color: green}
+        input[type = "text"]{
+            width: 150px;
+            display: block;
+            margin-bottom: 10px;
+            background-color: yellow;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        input[type="button"]{
+            width: 120px;
+            margin-left: 35px;
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p {background-color: gray; padding: 20px;}
+        p.asdfg{color: red}
+        h1.asdfg{color: blue}
+        </style>
+    </header>
+    <body>
+        <h1 class="center">This heading will be center-aligned</h1>
+        <p class="center"> This param will also be center-aligned</p>
+        <h1 title="Hello world">sfsfsd</h1>
+        <h2 title="baidu" >ssss</h2>
+        <a title="fsfds" href="http://www.baidu.com">ffsdfsdfs</a>
+        <h1 title="hello world">hellobaidu</h1>
+        <a href="http://www.baidu.com" title="hello fsfsdf">baidu</a>
+        <form name="input" action="" method="get">
+            <input type="text" name="Name" value="Bill" size="20">
+            <input type="button"  value="Example Button">
+        </form>
+<p class="asdfg">red red red</p>
+<h1 class="asdfg">blue blue blue </h1>
+    </body>
+</html>
